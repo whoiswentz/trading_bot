@@ -16,5 +16,6 @@ import Config
 #       format: "$date $time [$level] $metadata$message\n",
 #       metadata: [:user_id]
 #
+config :logger, level: :info
 
 config :streamer, streamer_endpoint: "wss://stream.binance.com:9443/ws"
